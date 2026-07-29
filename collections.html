@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/components.css" />
     <link rel="stylesheet" href="assets/css/animations.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
-    <link rel="stylesheet" href="assets/css/marketplace.css" />
+    <link rel="stylesheet" href="assets/css/collections.css" />
 
     <link
       rel="stylesheet"
@@ -74,66 +74,83 @@
         </div>
       </div>
     </header>
-    <main class="marketplace">
-      <!-- ==========================================
-       HERO
-  =========================================== -->
 
-      <section class="marketplace-hero">
+    <main class="collections">
+      <!--=====================================
+        BREADCRUMB
+======================================-->
+
+      <section class="collections-breadcrumb">
         <div class="container">
-          <div class="marketplace-hero__wrapper">
-            <div class="marketplace-hero__content">
-              <span class="badge">
-                <i class="fa-solid fa-store"></i>
+          <nav class="breadcrumb">
+            <a href="index.html"> Home </a>
 
-                Digital Marketplace
+            <span>/</span>
+
+            <span> Collections </span>
+          </nav>
+        </div>
+      </section>
+
+      <!--=====================================
+        HERO
+======================================-->
+
+      <section class="collections-hero">
+        <div class="container">
+          <div class="collections-hero__wrapper">
+            <div class="collections-hero__content">
+              <span class="badge">
+                <i class="fa-solid fa-layer-group"></i>
+
+                Premium Collections
               </span>
 
-              <h1>Find Professional Digital Assets</h1>
+              <h1>Curated Digital Collections</h1>
 
               <p>
-                Explore SOPs, Business Templates, Books, AI Prompt, Dashboard,
-                Policies, Work Instructions and more.
+                Save time with ready-to-use bundles containing SOPs, Templates,
+                Books, AI Prompts, Policies, Dashboards, Forms, and Business
+                Resources.
               </p>
 
               <!-- SEARCH -->
 
-              <div class="marketplace-search">
+              <div class="collections-search">
                 <i class="fa-solid fa-magnifying-glass"></i>
 
-                <input
-                  type="text"
-                  placeholder="Search SOP, Template, AI Prompt..."
-                />
+                <input type="text" placeholder="Search collections..." />
 
-                <button>
-                  <i class="fa-solid fa-sparkles"></i>
-
-                  Ask AI
-                </button>
+                <button>Browse</button>
               </div>
 
               <!-- TAG -->
 
-              <div class="marketplace-tags">
-                <a href="#">Hospital SOP</a>
+              <div class="collections-tags">
+                <a href="#">Hospital</a>
 
                 <a href="#">Business</a>
 
+                <a href="#">Education</a>
+
+                <a href="#">Government</a>
+
                 <a href="#">ISO</a>
 
+                <a href="#">AI</a>
+
                 <a href="#">Dashboard</a>
-
-                <a href="#">HR</a>
-
-                <a href="#">AI Prompt</a>
-
-                <a href="#">Books</a>
               </div>
 
               <!-- STATS -->
 
-              <div class="marketplace-stats">
+              <div class="collections-stats">
+                <div>
+                  <strong>120+</strong>
+
+                  <span>Collections</span>
+                </div>
+
                 <div>
                   <strong>40K+</strong>
 
@@ -142,12 +159,6 @@
 
                 <div>
                   <strong>15K+</strong>
-
-                  <span>Creators</span>
-                </div>
-
-                <div>
-                  <strong>120K+</strong>
 
                   <span>Downloads</span>
                 </div>
@@ -160,89 +171,73 @@
               </div>
             </div>
 
-            <!-- RIGHT PANEL -->
-
-            <aside class="marketplace-panel"></aside>
+            <aside class="collections-widget"></aside>
           </div>
         </div>
       </section>
 
-      <!-- ==========================================
-        MARKETPLACE
-  =========================================== -->
+      <!--=====================================
+        FEATURED COLLECTIONS
+======================================-->
 
-      <section class="marketplace-wrapper">
+      <section class="featured-collections">
         <div class="container">
-          <div class="marketplace-layout">
-            <!-- SIDEBAR -->
+          <div class="section-header">
+            <div>
+              <span class="section-subtitle"> Featured </span>
 
-            <aside class="marketplace-sidebar">
-              <h3>Categories</h3>
+              <h2>Premium Collections</h2>
 
-              <ul>
-                <li>Hospital</li>
+              <p>Professionally curated bundles for every industry.</p>
+            </div>
 
-                <li>Business</li>
+            <a href="#"> View All </a>
+          </div>
 
-                <li>Dashboard</li>
+          <div class="collections-grid"></div>
+        </div>
+      </section>
 
-                <li>Template</li>
+      <!--=====================================
+        INDUSTRIES
+======================================-->
 
-                <li>AI Prompt</li>
-              </ul>
-            </aside>
-            <!-- CONTENT -->
+      <section class="industry-section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-subtitle"> Solutions </span>
 
-            <div class="marketplace-content">
-              <!-- TOOLBAR -->
-
-              <div class="marketplace-toolbar">
-                <div class="toolbar-left">
-                  Showing
-                  <strong>6 Products</strong>
-                </div>
-
-                <div class="toolbar-right">
-                  <select>
-                    <option>Newest</option>
-
-                    <option>Popular</option>
-
-                    <option>Price Low</option>
-
-                    <option>Price High</option>
-                  </select>
-                </div>
-              </div>
-
-              <!-- AI -->
-
-              <div class="marketplace-recommendation">Recommended For You</div>
-
-              <!-- GRID -->
-
-              <div class="marketplace-grid"></div>
-
-              <!-- PAGINATION -->
-
-              <div class="marketplace-pagination"></div>
+              <h2>Browse by Industry</h2>
             </div>
           </div>
+
+          <div class="industry-grid"></div>
         </div>
       </section>
 
-      <!-- ==========================================
+      <!--=====================================
         CTA
-  =========================================== -->
+======================================-->
 
-      <section class="marketplace-cta">
+      <section class="collections-cta">
         <div class="container">
-          <h2>Ready to grow your business?</h2>
+          <div class="cta-box">
+            <h2>Build Faster with Premium Collections</h2>
 
-          <a href="#" class="btn btn-primary"> Browse Assets </a>
+            <p>
+              Thousands of professional digital assets ready for your
+              organization.
+            </p>
+
+            <a href="marketplace.html" class="btn btn-primary">
+              Explore Marketplace
+            </a>
+          </div>
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <div class="footer__top">
@@ -337,6 +332,6 @@
       <i class="fa-solid fa-arrow-up"></i>
     </button>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/marketplace.js"></script>
+    <script src="assets/js/collections.js"></script>
   </body>
 </html>
