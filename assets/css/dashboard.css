@@ -377,17 +377,21 @@ HEADER
 }
 
 .dashboard-header {
-  position: sticky;
+  position: fixed;
 
   top: 0;
 
-  z-index: 100;
+  left: var(--sidebar-width);
 
-  height: var(--header-height);
+  right: 0;
 
-  background: rgba(255, 255, 255, 0.92);
+  height: 82px;
 
-  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.95);
+
+  backdrop-filter: blur(20px);
+
+  -webkit-backdrop-filter: blur(20px);
 
   border-bottom: 1px solid var(--border);
 
@@ -398,6 +402,8 @@ HEADER
   align-items: center;
 
   padding: 0 35px;
+
+  z-index: 999;
 }
 
 /*==================================================
@@ -635,6 +641,7 @@ HERO
 ==================================================*/
 
 .dashboard-hero {
+  margin-top: 60px;
   display: grid;
 
   grid-template-columns: 2fr 1fr;
@@ -643,7 +650,7 @@ HERO
 
   align-items: center;
 
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .hero-content {
@@ -1648,4 +1655,59 @@ WORKSPACE GRID
 
 .workspace-widget {
   transition: 0.35s;
+}
+/*==================================================
+FOOTER
+==================================================*/
+
+.dashboard-footer {
+  margin-top: 40px;
+
+  padding: 24px 0;
+
+  border-top: 1px solid var(--border);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  color: #64748b;
+
+  font-size: 14px;
+}
+
+.footer-left {
+  font-weight: 500;
+}
+
+.footer-right {
+  display: flex;
+
+  align-items: center;
+
+  gap: 24px;
+}
+
+.footer-right a {
+  color: #64748b;
+
+  transition: 0.3s;
+}
+
+.footer-right a:hover {
+  color: var(--orange);
+}
+
+.footer-right span {
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  background: #eef4ff;
+
+  color: #0f2345;
+
+  font-size: 13px;
 }
