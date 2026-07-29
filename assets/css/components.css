@@ -253,10 +253,24 @@
   color: var(--text-light);
 }
 
+/*=========================================
+    HERO IMAGE
+=========================================*/
+
 .hero__image {
+  position: relative;
+
   display: flex;
 
   justify-content: center;
+
+  align-items: center;
+
+  width: 620px;
+
+  height: 560px;
+
+  margin: auto;
 }
 /*=========================================
         DASHBOARD MOCKUP
@@ -340,19 +354,12 @@
 /*=========================================
     FLOATING ELEMENTS
 =========================================*/
+/*=========================================
+    FLOATING ELEMENTS
+=========================================*/
 
 .hero__floating {
   position: absolute;
-
-  border-radius: 22px;
-
-  background: #fff;
-
-  border: 1px solid var(--border);
-
-  box-shadow: var(--shadow-lg);
-
-  padding: 18px 22px;
 
   display: flex;
 
@@ -360,7 +367,19 @@
 
   gap: 14px;
 
+  padding: 16px 20px;
+
+  background: #fff;
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  box-shadow: var(--shadow-lg);
+
   animation: floatingCard 5s ease-in-out infinite;
+
+  max-width: 220px;
 }
 
 .hero__floating i {
@@ -368,7 +387,7 @@
 
   height: 48px;
 
-  border-radius: 16px;
+  border-radius: 14px;
 
   display: flex;
 
@@ -376,44 +395,41 @@
 
   align-items: center;
 
-  font-size: 22px;
-
   background: rgba(255, 106, 0, 0.12);
 
   color: var(--secondary);
+
+  font-size: 20px;
+
+  flex-shrink: 0;
 }
 
 .hero__floating h4 {
-  font-size: 16px;
+  font-size: 15px;
 
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .hero__floating span {
-  font-size: 14px;
+  font-size: 13px;
 
   color: var(--text-light);
 }
 
+/* Position */
 .hero__floating--1 {
-  top: 40px;
-
-  right: 10px;
+  top: 30px;
+  right: 55px;
 }
-
 .hero__floating--2 {
-  bottom: 40px;
-
-  left: -40px;
-
+  bottom: 0px;
+  left: 200px;
   animation-delay: 1.5s;
 }
 
 .hero__floating--3 {
-  top: 180px;
-
-  left: -70px;
-
+  top: 190px;
+  left: 30px;
   animation-delay: 3s;
 }
 /*=========================================
