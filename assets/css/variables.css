@@ -1,0 +1,140 @@
+/* ==========================================
+   KORAVO DESIGN SYSTEM
+   Version : 1.0
+========================================== */
+
+:root {
+  /*==================================
+      COLORS
+    ==================================*/
+
+  --primary: #0d1b3d;
+  --primary-light: #1f3a6d;
+  --primary-dark: #081224;
+
+  --secondary: #ff6a00;
+  --secondary-hover: #e65f00;
+
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  --white: #ffffff;
+
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-800: #1e293b;
+  --gray-900: #0f172a;
+
+  --text: #111827;
+  --text-light: #6b7280;
+
+  --border: #e5e7eb;
+
+  --background: #ffffff;
+  --section: #f8fafc;
+  --card: #ffffff;
+
+  /*==================================
+      TYPOGRAPHY
+    ==================================*/
+
+  --font-heading: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --fs-hero: 72px;
+  --fs-h1: 56px;
+  --fs-h2: 42px;
+  --fs-h3: 32px;
+  --fs-h4: 24px;
+  --fs-h5: 20px;
+
+  --fs-body-lg: 18px;
+  --fs-body: 16px;
+  --fs-small: 14px;
+  --fs-xs: 12px;
+
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  --line-height: 1.7;
+
+  /*==================================
+      SPACING
+    ==================================*/
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+  --space-13: 120px;
+
+  /*==================================
+      CONTAINER
+    ==================================*/
+
+  --container: 1320px;
+
+  /*==================================
+      BORDER RADIUS
+    ==================================*/
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /*==================================
+      SHADOW
+    ==================================*/
+
+  --shadow-xs: 0 2px 4px rgba(15, 23, 42, 0.05);
+
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.08);
+
+  --shadow-md: 0 10px 25px rgba(15, 23, 42, 0.1);
+
+  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.12);
+
+  --shadow-xl: 0 35px 80px rgba(15, 23, 42, 0.16);
+
+  /*==================================
+      TRANSITION
+    ==================================*/
+
+  --transition: 0.3s ease;
+
+  /*==================================
+      HEADER
+    ==================================*/
+
+  --header-height: 82px;
+
+  /*==================================
+      Z INDEX
+    ==================================*/
+
+  --z-dropdown: 900;
+  --z-fixed: 999;
+  --z-modal: 9999;
+}
