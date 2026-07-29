@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dashboard | Koravo</title>
+
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <link rel="stylesheet" href="../assets/css/variables.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/components.css" />
+    <link rel="stylesheet" href="../assets/css/animations.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/dashboard.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="dashboard">
+      <!--==================================
+            SIDEBAR
+    ===================================-->
+
+      <aside class="sidebar">
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+          <img src="../assets/images/logo_white.png" alt="Koravo" />
+        </div>
+
+        <!-- WORKSPACE -->
+
+        <div class="sidebar-workspace">
+          <small>Workspace</small>
+
+          <button class="workspace-card">
+            <div>
+              <strong>Koravo Personal</strong>
+
+              <span>Professional Plan</span>
+            </div>
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <!-- MENU -->
+
+        <nav class="sidebar-menu">
+          <p class="menu-label">MAIN</p>
+
+          <a href="dashboard.html" class="active">
+            <i class="fa-solid fa-house"></i>
+
+            <span>Dashboard</span>
+          </a>
+
+          <p class="menu-label">MY CONTENT</p>
+
+          <a href="library.html">
+            <i class="fa-solid fa-book"></i>
+
+            <span>My Library</span>
+
+            <b>152</b>
+          </a>
+
+          <a href="downloads.html">
+            <i class="fa-solid fa-download"></i>
+
+            <span>Downloads</span>
+
+            <b>842</b>
+          </a>
+
+          <a href="wishlist.html">
+            <i class="fa-solid fa-heart"></i>
+
+            <span>Wishlist</span>
+
+            <b>18</b>
+          </a>
+
+          <a href="collections.html">
+            <i class="fa-solid fa-folder-open"></i>
+
+            <span>Collections</span>
+
+            <b>12</b>
+          </a>
+
+          <p class="menu-label">MY SERVICES</p>
+
+          <a href="applications.html">
+            <i class="fa-solid fa-rocket"></i>
+
+            <span>Applications</span>
+
+            <b>5</b>
+          </a>
+
+          <a href="subscriptions.html">
+            <i class="fa-solid fa-credit-card"></i>
+
+            <span>Subscriptions</span>
+
+            <b>2</b>
+          </a>
+
+          <a href="orders.html">
+            <i class="fa-solid fa-box"></i>
+
+            <span>Orders</span>
+          </a>
+
+          <a href="billing.html">
+            <i class="fa-solid fa-file-invoice"></i>
+
+            <span>Billing</span>
+          </a>
+
+          <p class="menu-label">ACCOUNT</p>
+
+          <a href="profile.html">
+            <i class="fa-solid fa-user"></i>
+
+            <span>Profile</span>
+          </a>
+
+          <a href="settings.html">
+            <i class="fa-solid fa-gear"></i>
+
+            <span>Settings</span>
+          </a>
+
+          <a href="#">
+            <i class="fa-solid fa-circle-question"></i>
+
+            <span>Help Center</span>
+          </a>
+        </nav>
+
+        <!-- STORAGE -->
+
+        <div class="sidebar-storage">
+          <div class="storage-title">Storage</div>
+
+          <div class="storage-bar">
+            <div class="storage-progress"></div>
+          </div>
+
+          <div class="storage-info">
+            <span>6.8 GB</span>
+
+            <span>10 GB</span>
+          </div>
+
+          <button class="btn-upgrade">Upgrade Plan</button>
+        </div>
+
+        <!-- PROFILE -->
+
+        <div class="sidebar-user">
+          <img src="../assets/images/avatar1.png" />
+
+          <div>
+            <strong>Zack</strong>
+
+            <span>Professional</span>
+          </div>
+
+          <button>
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </button>
+        </div>
+      </aside>
+      <!--==================================
+        MAIN
+===================================-->
+
+<main class="dashboard-main">
+
+    <!--==================================
+            HEADER
+    ===================================-->
+
+    <header class="dashboard-header">
+
+        <div class="header-left">
+
+            <button class="sidebar-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+            <div class="header-search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search SOP, Books, Templates, Applications..."
+                >
+
+            </div>
+
+        </div>
+
+        <div class="header-right">
+
+            <button class="header-icon">
+
+                <i class="fa-regular fa-bell"></i>
+
+                <span class="notification-badge">3</span>
+
+            </button>
+
+            <button class="header-icon">
+
+                <i class="fa-regular fa-envelope"></i>
+
+            </button>
+
+            <button class="header-icon">
+
+                <i class="fa-regular fa-moon"></i>
+
+            </button>
+
+            <div class="header-user">
+
+                <img
+                    src="../assets/images/avatar1.png"
+                    alt="User"
+                >
+
+                <div>
+
+                    <strong>Zack</strong>
+
+                    <small>Professional Plan</small>
+
+                </div>
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--==================================
+            PAGE
+    ===================================-->
+
+    <div class="dashboard-page">
+
+        <!-- Breadcrumb -->
+
+        <div class="breadcrumb">
+
+            <a href="dashboard.html">
+
+                Dashboard
+
+            </a>
+
+            <span>/</span>
+
+            <strong>Overview</strong>
+
+        </div>
+
+        <!--==================================
+                HERO
+        ===================================-->
+
+        <section class="dashboard-hero">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+
+                    👋 Welcome Back
+
+                </span>
+
+                <h1>
+
+                    Good Morning, Zack
+
+                </h1>
+
+                <p>
+
+                    Manage your digital products, subscriptions, software applications, invoices and purchases from one modern workspace.
+
+                </p>
+
+                <div class="hero-actions">
+
+                    <a
+                        href="../marketplace.html"
+                        class="btn btn-primary"
+                    >
+
+                        Browse Marketplace
+
+                    </a>
+
+                    <a
+                        href="library.html"
+                        class="btn btn-light"
+                    >
+
+                        Open Library
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <small>
+
+                    Continue Reading
+
+                </small>
+
+                <h3>
+
+                    ISO 9001 Documentation
+
+                </h3>
+
+                <p>
+
+                    Progress 68%
+
+                </p>
+
+                <div class="hero-progress">
+
+                    <div class="hero-progress-bar"></div>
+
+                </div>
+
+                <button class="btn btn-primary w-100">
+
+                    Continue
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="workspace-grid">
+
+         <div class="workspace-widget blue">
+
+            <div class="workspace-top">
+
+                  <span>Continue Reading</span>
+
+                  <i class="fa-solid fa-book-open"></i>
+
+            </div>
+
+            <h3>ISO 9001 Documentation</h3>
+
+            <p>
+                  Continue from page 48 of 220.
+            </p>
+
+            <button class="btn btn-light">
+
+                  Continue
+
+            </button>
+
+         </div>
+
+         <div class="workspace-widget orange">
+
+            <div class="workspace-top">
+
+                  <span>Application</span>
+
+                  <i class="fa-solid fa-rocket"></i>
+
+            </div>
+
+            <h3>Medicine AI</h3>
+
+            <p>
+
+                  Professional License Active
+
+            </p>
+
+            <button class="btn btn-light">
+
+                  Launch
+
+            </button>
+
+         </div>
+
+         <div class="workspace-widget green">
+
+            <div class="workspace-top">
+
+                  <span>Updates</span>
+
+                  <i class="fa-solid fa-cloud-arrow-down"></i>
+
+            </div>
+
+            <h3>Hospital SOP Bundle</h3>
+
+            <p>
+
+                  12 new documents available.
+
+            </p>
+
+            <button class="btn btn-light">
+
+                  Update
+
+            </button>
+
+         </div>
+
+       </section>
+
+        <!--==================================
+                STATS
+        ===================================-->
+
+        <section class="dashboard-stats">
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-book"></i>
+
+                </div>
+
+                <div>
+
+                    <h2>152</h2>
+
+                    <span>Digital Assets</span>
+
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-download"></i>
+
+                </div>
+
+                <div>
+
+                    <h2>842</h2>
+
+                    <span>Total Downloads</span>
+
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-rocket"></i>
+
+                </div>
+
+                <div>
+
+                    <h2>5</h2>
+
+                    <span>Applications</span>
+
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-credit-card"></i>
+
+                </div>
+
+                <div>
+
+                    <h2>2</h2>
+
+                    <span>Subscriptions</span>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!--==================================
+        DASHBOARD GRID
+===================================-->
+
+         <section class="dashboard-grid">
+
+            <!--==================================
+                     LEFT CONTENT
+            ===================================-->
+
+            <div class="dashboard-left">
+
+               <!-- Recent Purchases -->
+
+               <div class="dashboard-widget">
+
+                     <div class="widget-header">
+
+                        <div>
+
+                           <h2>Recent Purchases</h2>
+
+                           <p>Your latest purchased digital products.</p>
+
+                        </div>
+
+                        <a href="orders.html">
+
+                           View All
+
+                        </a>
+
+                     </div>
+
+                     <div class="purchase-list">
+
+                        <div class="purchase-item">
+
+                           <img src="../assets/images/preview1.png">
+
+                           <div class="purchase-info">
+
+                                 <h4>Hospital SOP Bundle</h4>
+
+                                 <span>Purchased Yesterday</span>
+
+                           </div>
+
+                           <button class="btn btn-light">
+
+                                 Download
+
+                           </button>
+
+                        </div>
+
+                        <div class="purchase-item">
+
+                           <img src="../assets/images/product2.png">
+
+                           <div class="purchase-info">
+
+                                 <h4>ISO 9001 Documentation</h4>
+
+                                 <span>Version 2.4 Available</span>
+
+                           </div>
+
+                           <button class="btn btn-primary">
+
+                                 Update
+
+                           </button>
+
+                        </div>
+
+                        <div class="purchase-item">
+
+                           <img src="../assets/images/product3.png">
+
+                           <div class="purchase-info">
+
+                                 <h4>AI Business Prompt</h4>
+
+                                 <span>Purchased 3 days ago</span>
+
+                           </div>
+
+                           <button class="btn btn-light">
+
+                                 Open
+
+                           </button>
+
+                        </div>
+
+                     </div>
+
+               </div>
+
+               <!-- Applications -->
+
+               <div class="dashboard-widget">
+
+                     <div class="widget-header">
+
+                        <div>
+
+                           <h2>My Applications</h2>
+
+                           <p>Applications you currently own.</p>
+
+                        </div>
+
+                        <a href="applications.html">
+
+                           View All
+
+                        </a>
+
+                     </div>
+
+                     <div class="apps-grid">
+
+                        <div class="application-card">
+
+                           <div class="app-icon">
+
+                                 <i class="fa-solid fa-stethoscope"></i>
+
+                           </div>
+
+                           <h3>Medicine</h3>
+
+                           <span>Professional</span>
+
+                           <button class="btn btn-primary">
+
+                                 Launch
+
+                           </button>
+
+                        </div>
+
+                        <div class="application-card">
+
+                           <div class="app-icon">
+
+                                 <i class="fa-solid fa-building"></i>
+
+                           </div>
+
+                           <h3>HR</h3>
+
+                           <span>Business Plan</span>
+
+                           <button class="btn btn-light">
+
+                                 Open
+
+                           </button>
+
+                        </div>
+
+                        <div class="application-card">
+
+                           <div class="app-icon">
+
+                                 <i class="fa-solid fa-graduation-cap"></i>
+
+                           </div>
+
+                           <h3>LMS</h3>
+
+                           <span>Trial</span>
+
+                           <button class="btn btn-light">
+
+                                 Upgrade
+
+                           </button>
+
+                        </div>
+
+                     </div>
+
+               </div>
+
+            </div>
+
+            <!--==================================
+                     RIGHT SIDEBAR
+            ===================================-->
+
+            <aside class="dashboard-right">
+
+               <!-- Quick Actions -->
+
+               <div class="dashboard-widget">
+
+                     <h2>Quick Actions</h2>
+
+                     <div class="quick-actions">
+
+                        <a href="../marketplace.html">
+
+                           <i class="fa-solid fa-store"></i>
+
+                           Browse Marketplace
+
+                        </a>
+
+                        <a href="library.html">
+
+                           <i class="fa-solid fa-book"></i>
+
+                           Open My Library
+
+                        </a>
+
+                        <a href="subscriptions.html">
+
+                           <i class="fa-solid fa-credit-card"></i>
+
+                           Renew Subscription
+
+                        </a>
+
+                        <a href="billing.html">
+
+                           <i class="fa-solid fa-file-invoice"></i>
+
+                           Billing Center
+
+                        </a>
+
+                     </div>
+
+               </div>
+
+               <!-- AI Recommendation -->
+
+               <div class="dashboard-widget ai-widget">
+
+                     <span class="widget-tag">
+
+                        AI Assistant
+
+                     </span>
+
+                     <h2>
+
+                        Recommended For You
+
+                     </h2>
+
+                     <p>
+
+                        Based on your purchases, we recommend:
+
+                     </p>
+
+                     <ul>
+
+                        <li>Risk Management SOP</li>
+
+                        <li>Internal Audit SOP</li>
+
+                        <li>CAPA Template</li>
+
+                        <li>Quality Manual</li>
+
+                     </ul>
+
+                     <button class="btn btn-primary w-100">
+
+                        Explore Recommendations
+
+                     </button>
+
+               </div>
+
+               <!-- Activity -->
+
+               <div class="dashboard-widget">
+
+                     <h2>
+
+                        Recent Activity
+
+                     </h2>
+
+                     <div class="activity-list">
+
+                        <div class="activity-item">
+
+                           <i class="fa-solid fa-download"></i>
+
+                           <div>
+
+                                 <strong>Downloaded Hospital SOP</strong>
+
+                                 <small>2 hours ago</small>
+
+                           </div>
+
+                        </div>
+
+                        <div class="activity-item">
+
+                           <i class="fa-solid fa-rocket"></i>
+
+                           <div>
+
+                                 <strong>Medicine AI Activated</strong>
+
+                                 <small>Yesterday</small>
+
+                           </div>
+
+                        </div>
+
+                        <div class="activity-item">
+
+                           <i class="fa-solid fa-heart"></i>
+
+                           <div>
+
+                                 <strong>Added AI Prompt to Wishlist</strong>
+
+                                 <small>2 days ago</small>
+
+                           </div>
+
+                        </div>
+
+                        <div class="activity-item">
+
+                           <i class="fa-solid fa-book-open"></i>
+
+                           <div>
+
+                                 <strong>Continue Reading ISO Book</strong>
+
+                                 <small>Last week</small>
+
+                           </div>
+
+                        </div>
+
+                     </div>
+
+               </div>
+
+            </aside>
+
+         </section>
+    </div>
+</main>
+<script src="../assets/js/dashboard.js"></script>
+  </body>
+</html>
