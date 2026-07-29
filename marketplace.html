@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Koravo - Professional Digital Marketplace</title>
+
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/marketplace.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar__wrapper">
+          <!-- Logo -->
+
+          <a href="#" class="navbar__logo">
+            <img src="assets/images/logo.svg" alt="Koravo" />
+
+            <span>Koravo</span>
+          </a>
+
+          <!-- Menu -->
+
+          <nav class="navbar__menu">
+            <ul>
+              <li>
+                <a href="#">Marketplace</a>
+              </li>
+
+              <li>
+                <a href="#">Categories</a>
+              </li>
+
+              <li>
+                <a href="#">Authors</a>
+              </li>
+
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Right -->
+
+          <div class="navbar__right">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <a href="#" class="btn btn-light"> Login </a>
+
+            <a href="#" class="btn btn-primary"> Register </a>
+
+            <button class="mobile-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="marketplace">
+      <!-- ==========================================
+       HERO
+  =========================================== -->
+
+      <section class="marketplace-hero">
+        <div class="container">
+          <div class="marketplace-hero__wrapper">
+            <div class="marketplace-hero__content">
+              <span class="badge">
+                <i class="fa-solid fa-store"></i>
+
+                Digital Marketplace
+              </span>
+
+              <h1>Find Professional Digital Assets</h1>
+
+              <p>
+                Explore SOPs, Business Templates, Books, AI Prompt, Dashboard,
+                Policies, Work Instructions and more.
+              </p>
+
+              <!-- SEARCH -->
+
+              <div class="marketplace-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                  type="text"
+                  placeholder="Search SOP, Template, AI Prompt..."
+                />
+
+                <button>
+                  <i class="fa-solid fa-sparkles"></i>
+
+                  Ask AI
+                </button>
+              </div>
+
+              <!-- TAG -->
+
+              <div class="marketplace-tags">
+                <a href="#">Hospital SOP</a>
+
+                <a href="#">Business</a>
+
+                <a href="#">ISO</a>
+
+                <a href="#">Dashboard</a>
+
+                <a href="#">HR</a>
+
+                <a href="#">AI Prompt</a>
+
+                <a href="#">Books</a>
+              </div>
+
+              <!-- STATS -->
+
+              <div class="marketplace-stats">
+                <div>
+                  <strong>40K+</strong>
+
+                  <span>Assets</span>
+                </div>
+
+                <div>
+                  <strong>15K+</strong>
+
+                  <span>Creators</span>
+                </div>
+
+                <div>
+                  <strong>120K+</strong>
+
+                  <span>Downloads</span>
+                </div>
+
+                <div>
+                  <strong>4.9★</strong>
+
+                  <span>Rating</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT PANEL -->
+
+            <aside class="marketplace-panel"></aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+        MARKETPLACE
+  =========================================== -->
+
+      <section class="marketplace-wrapper">
+        <div class="container">
+          <div class="marketplace-layout">
+            <!-- SIDEBAR -->
+
+            <aside class="marketplace-sidebar">
+              <h3>Categories</h3>
+
+              <ul>
+                <li>Hospital</li>
+
+                <li>Business</li>
+
+                <li>Dashboard</li>
+
+                <li>Template</li>
+
+                <li>AI Prompt</li>
+              </ul>
+            </aside>
+            <!-- CONTENT -->
+
+            <div class="marketplace-content">
+              <!-- TOOLBAR -->
+
+              <div class="marketplace-toolbar">
+                <div class="toolbar-left">
+                  Showing
+                  <strong>6 Products</strong>
+                </div>
+
+                <div class="toolbar-right">
+                  <select>
+                    <option>Newest</option>
+
+                    <option>Popular</option>
+
+                    <option>Price Low</option>
+
+                    <option>Price High</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- AI -->
+
+              <div class="marketplace-recommendation">Recommended For You</div>
+
+              <!-- GRID -->
+
+              <div class="marketplace-grid"></div>
+
+              <!-- PAGINATION -->
+
+              <div class="marketplace-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+        CTA
+  =========================================== -->
+
+      <section class="marketplace-cta">
+        <div class="container">
+          <h2>Ready to grow your business?</h2>
+
+          <a href="#" class="btn btn-primary"> Browse Assets </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer-brand">
+            <img src="assets/images/logo.svg" alt="Koravo" />
+
+            <h3>Koravo</h3>
+
+            <p>
+              Professional Digital Marketplace for SOP, Templates, Books, AI
+              Prompts, Business Documents, and Digital Resources.
+            </p>
+
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+              <a href="#"><i class="fab fa-instagram"></i></a>
+
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Marketplace</h4>
+
+            <a href="#">Hospital SOP</a>
+
+            <a href="#">Business SOP</a>
+
+            <a href="#">Templates</a>
+
+            <a href="#">Books</a>
+
+            <a href="#">AI Prompt</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>Company</h4>
+
+            <a href="#">About</a>
+
+            <a href="#">Careers</a>
+
+            <a href="#">Blog</a>
+
+            <a href="#">Partners</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>Support</h4>
+
+            <a href="#">Documentation</a>
+
+            <a href="#">Help Center</a>
+
+            <a href="#">Contact</a>
+
+            <a href="#">Status</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>Legal</h4>
+
+            <a href="#">Terms</a>
+
+            <a href="#">Privacy</a>
+
+            <a href="#">Refund</a>
+
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span> © 2026 Koravo. All rights reserved. </span>
+
+          <span> Designed with ❤️ for Professionals. </span>
+        </div>
+      </div>
+    </footer>
+    <!--=====================================
+    FLOATING CHAT
+======================================-->
+    <a href="#" class="floating-chat">
+      <i class="fa-solid fa-comments"></i>
+    </a>
+    <button id="backToTop">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/marketplace.js"></script>
+  </body>
+</html>
